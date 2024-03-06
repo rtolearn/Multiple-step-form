@@ -1,0 +1,130 @@
+
+#select-plan{
+    
+  margin: 0.5rem;  
+}    
+#package{
+    max-width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.package-detail{
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+
+    width: 15%;
+    max-width: 15%;
+    max-height: fit-content;
+
+    padding: 1rem;
+    margin-right: 1rem; 
+
+    background-color: white;
+}
+
+.package-detail:focus{
+    filter: brightness(50%); 
+ }
+#package-duration{
+    background-color: whitesmoke;
+
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.5rem;
+
+    margin-top:1rem;
+}
+
+#package-duration > div{
+   margin: 0 1rem;
+}
+#toggle-button{
+    position: relative;
+    width: 50px;
+    height: 25px;
+}
+.icon{
+    border: 2px solid black;
+    border-radius: 10px;
+
+    max-width: 20%;
+    max-height: fit-content;
+
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.package-detail > div{
+    margin-top: 2.5rem;
+    line-height:10px;
+}
+
+.button{
+    position:absolute;
+    width: 50px;
+    height: 25px;
+    background-color: rgb(173, 23, 23);
+    border-radius: 5rem;
+}
+.button::before{
+    content: " ";
+    position:absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(24, 16, 16);
+    transition-duration: 1s;
+    border-radius: 50%;
+}
+#toggle-button input{
+    position:relative;
+    width: 25px;
+    height: 25px;
+}
+
+input:checked + .button::before {
+    background-color: rgb(19, 18, 17);
+    transform: translateX(25px);
+}
+
+input{
+    display: none;
+}
+
+#button-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#goBack{
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: -0.5rem;
+    margin-right: 0;
+    float: right;
+    background-color: white;
+    color: rgb(28, 105, 206);
+
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#submit{
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: -0.5rem;
+    margin-right: 0;
+    float: right;
+    background-color: rgb(5, 74, 153);
+    color: white;
+
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}

@@ -1,0 +1,67 @@
+
+#button-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#goBack{
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: -0.5rem;
+    margin-right: 0;
+    background-color: white;
+    color: rgb(28, 105, 206);
+
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#submit{
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: -0.5rem;
+    margin-right: 0;
+    background-color: rgb(5, 74, 153);
+    color: white;
+
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.options{
+    width: 80%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 2px solid black;
+    border-radius: 0.5rem;
+
+    padding: 0.5rem 2rem;
+    margin: 1rem 0rem;
+    color: rgb(46, 34, 114);
+}
+.options > div{
+ 
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.options > div > input{
+ 
+    cursor: pointer;
+}
+
+.options > div > div{
+    margin-left: 1rem;
+    line-height: 1px;
+}
+
+.options > span{
+    color: rgb(68, 50, 172);
+}
